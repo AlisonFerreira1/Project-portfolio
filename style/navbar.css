@@ -1,0 +1,19 @@
+@import url("../../style/sty.css");
+#barranavegacao {
+  background: none;
+  width: 100%;
+}
+#conteudonavegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.menu {
+  position: absolute;
+  display: none;
+}
+#botaomenu {
+  background: none;
+  border: none;
+}

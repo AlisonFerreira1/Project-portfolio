@@ -1,0 +1,11 @@
+@import url("../../style/reset.css");
+@import url("../../style/navbar.css");
+
+:root {
+  --primary-color: rgba(155, 16, 33);
+  --secundary-color: rgba(255, 255, 255);
+  --terciary-color: rgb(114, 114, 114);
+}
+body {
+  background-color: black;
+}
