@@ -9,11 +9,39 @@
   align-items: center;
   padding: 1rem;
 }
-.menu {
-  position: absolute;
-  display: none;
-}
 #botaomenu {
-  background: none;
+  background: url("../imgs/symbols_menu_white.svg");
   border: none;
+  width: 9%;
+  height: 1.4rem;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  border-radius: 5px 5px 0px 0px;
+}
+.menu {
+  width: 27%;
+  background: var(--secundary-color);
+  position: absolute;
+  top: 2.4rem;
+  left: 1rem;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: none;
+  border-radius: 0px 5px 5px 5px;
+}
+.menu li {
+  padding: 0.25rem;
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+.menu li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.menu.open {
+  display: block;
+  background-color: var(--secundary-color);
 }
