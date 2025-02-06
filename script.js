@@ -8,9 +8,9 @@ function ocultarmenu() {
   // Se o menu está aberto, muda a cor do botão
   if (menu.classList.contains("open")) {
     botao.style.backgroundColor = "var(--secundary-color)"; // Cor quando aberto
-    botao.style.backgroundImage = 'url("../imgs/symbols_menu_black.svg")';
+    botao.style.backgroundImage = 'url("../imgs/symbols_menu_red.svg")';
   } else {
-    botao.style.backgroundImage = 'url("../imgs/symbols_menu_white.svg")';
+    botao.style.backgroundImage = 'url("../imgs/symbols_menu_red.svg")';
     botao.style.backgroundColor = "transparent"; // Cor quando fechado
   }
 }

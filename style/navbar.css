@@ -10,15 +10,23 @@
   padding: 1rem;
 }
 #botaomenu {
-  background: url("../imgs/symbols_menu_white.svg");
+  background: url("../imgs/symbols_menu_red.svg");
   border: none;
   width: 9%;
-  height: 1.4rem;
+  height: 1.7rem;
   cursor: pointer;
   background-size: cover;
   background-position: center;
   display: block;
   border-radius: 5px 5px 0px 0px;
+}
+#logo {
+  background-image: url("../imgs/logo.svg");
+  width: 16%;
+  height: 0.91rem;
+  background-size: cover;
+  background-position: center;
+  display: block;
 }
 .menu {
   width: 27%;
